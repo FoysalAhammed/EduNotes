@@ -1,0 +1,19 @@
+.SclAnchor{
+    margin-right: 5px;
+    font-size: 20px;
+    border: 1px solid #dadada;
+    color: rgb(110, 110, 110);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.SclAnchor:hover{
+    background-color: #FC4F4F;
+    color: #fff;
+    border: none;
+}

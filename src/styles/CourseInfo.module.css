@@ -1,0 +1,45 @@
+.CIContainer{
+    position: relative;
+}
+.CIContainer::before {
+    position: absolute;
+    content: "";
+    background-image: url(../assets/icons/shapeOne.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    top: -30px;
+    left: -10px;
+    width: 100px; 
+    height: 100px;
+    animation: myAnimation 5s linear infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.CIContainer::after {
+    position: absolute;
+    content: "";
+    background-image: url(../assets/icons/shapeTwo.png); 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    bottom: -50px;
+    right: -10px;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    animation: myAnimationOne 3s linear infinite;
+}
+
+@keyframes myAnimationOne {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+

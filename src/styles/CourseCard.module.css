@@ -1,0 +1,38 @@
+.CCContainer {
+  transition: 0.5s ease-in-out;
+}
+
+.CCContainer:hover {
+  box-shadow: 0 10px 15px #d1d1d1;
+}
+
+.CCContainer:hover .CCImage {
+  transform: scale(1.0516);
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+.CCContainer:hover .CCDuration {
+  background-color: #ff7c02;
+  transition: 0.3s ease-in-out;
+}
+.CCContainer:hover .CCPrice {
+  color: #001d25;
+  transition: 0.3s ease-in-out;
+}
+.CCContainer:hover .CCTitle {
+  color: #fc4f4f;
+  transition: 0.3s ease-in-out;
+}
+.CCContainer:hover .CCLevel {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.CCIcons {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.CCContainer:hover .CCIconsContainer {
+  display: block;
+  transition: 0.3s ease-in-out;
+}

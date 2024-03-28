@@ -1,0 +1,23 @@
+.CSBannerContainer {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  position: relative;
+}
+.CSBannerContainer::after{
+    position: absolute;
+    content: "Or";
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: 'poppins-bold';
+    background-color: azure;
+    color: #001D25;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 100%;
+
+}

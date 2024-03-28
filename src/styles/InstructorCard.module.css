@@ -1,0 +1,20 @@
+.ISocialIcon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.SclAnchor {
+  font-size: 20px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.SclAnchor:hover {
+  background-color: #001D25;
+  color: #fff;
+}
